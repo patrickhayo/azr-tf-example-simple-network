@@ -19,7 +19,7 @@ content: |-
   ## Variables
 
   ```hcl
-  {{ include "local.tf" }}
+  {{ include "locals.tf" }}
   ```
 
   {{ .Footer }}
