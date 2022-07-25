@@ -1,9 +1,36 @@
 formatter: markdown table
 header-from: header.tf
 
+content: |-
+  {{ .Header }} 
+
+  {{ .Providers }}
+
+  {{ .Requirements }}
+
+  {{ .Modules }}
+
+  {{ .Resources }}
+
+  {{ .Inputs }}
+     
+  {{ .Outputs }}
+
+  ## Variables
+
+  ```hcl
+  {{ include "local.tf" }}
+  ```
+
+  {{ .Footer }}
+
 output:
   file: README.md
   mode: inject
+  template: |-
+    <!-- BEGIN_TF_DOCS -->
+    {{ .Content }}
+    <!-- END_TF_DOCS -->
 
 sort:
   enabled: true

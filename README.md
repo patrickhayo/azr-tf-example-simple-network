@@ -1,6 +1,12 @@
-# azr-tf-module-template
+# azr-tf-example-simple-network
 
-[Terraform](https://www.terraform.io) Module to create **[NAME]** in Azure
+[Terraform](https://www.terraform.io) Example to build a **Simple Network Setup**
+
+- Virutal Network (VNET)
+- NAT Gateway
+- Private DNS Zone
+- Network Security Group
+- Bastion Host
 
 <!-- BEGIN_TF_DOCS -->
 ## Prerequisites
