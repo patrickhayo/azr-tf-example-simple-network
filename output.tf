@@ -1,19 +1,24 @@
 output "basion" {
-  value = module.bastion_host
+  description = "Basiton Host Module Settings (deployed)."
+  value       = module.bastion_host
 }
 
 output "nat" {
-  value = module.nat
+  description = "NAT Gateway Module Settings (deployed)."
+  value       = module.nat
 }
 
 output "network" {
-  value = module.network
+  description = "VNET Module Settings (deployed)."
+  value       = module.network
 }
 
 output "nsgs" {
-  value = module.nsg
+  description = "NSG Module Settings (deployed)."
+  value       = module.nsg
 }
 
 output "privatednszone" {
-  value = module.privatednszone
+  description = "Private DNZ Zone Module Settings (deployed)."
+  value       = module.privatednszone
 }
