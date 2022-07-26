@@ -2,13 +2,13 @@ name: Generate terraform docs
 
 on:
   push:
-    branches: 
+    branches:
       - main
-      - 'release/**'
+      - "release/**"
   pull_request:
-    branches: 
+    branches:
       - main
-      - 'release/**'
+      - "release/**"
 
 jobs:
   build:

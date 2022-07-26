@@ -1,5 +1,5 @@
 /**
  * ## Prerequisites
  * 
- * - [Terraform](https://releases.hashicorp.com/terraform/) v0.12+
+ * - [Terraform](https://releases.hashicorp.com/terraform/) v1.2.5+
  */
