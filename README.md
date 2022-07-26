@@ -33,7 +33,7 @@
 | <a name="module_nat"></a> [nat](#module\_nat) | github.com/patrickhayo/modules//nat | n/a |
 | <a name="module_network"></a> [network](#module\_network) | github.com/patrickhayo/modules//vnet | n/a |
 | <a name="module_nsg"></a> [nsg](#module\_nsg) | github.com/patrickhayo/modules//nsg | n/a |
-| <a name="module_nsg_AzureBastionSubnet"></a> [nsg\_AzureBastionSubnet](#module\_nsg\_AzureBastionSubnet) | github.com/patrickhayo/modules//bastionhost | n/a |
+| <a name="module_nsg_AzureBastionSubnet"></a> [nsg\_AzureBastionSubnet](#module\_nsg\_AzureBastionSubnet) | github.com/patrickhayo/modules//nsg | n/a |
 | <a name="module_privatednszone"></a> [privatednszone](#module\_privatednszone) | github.com/patrickhayo/modules//privatednszone | n/a |
 
 ## Resources
