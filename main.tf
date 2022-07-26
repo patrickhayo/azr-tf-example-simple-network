@@ -133,7 +133,7 @@ module "bastion_host" {
 
 # Create specific Network Security Group (NSG) for Bastion Subnet
 module "nsg_AzureBastionSubnet" {
-  source              = "github.com/patrickhayo/modules//bastionhost"
+  source              = "github.com/patrickhayo/modules//nsg"
   name                = "nsg-${local.bastion_host_name}"
   resource_group_name = data.azurerm_resource_group.this.name
   location            = data.azurerm_resource_group.this.location
