@@ -23,7 +23,6 @@ jobs:
       with:
         api-key: ${{ secrets.API_KEY }}
         soft_fail: true
-        framework: terraform
         download_external_modules: true
         quiet: false
       env:  
